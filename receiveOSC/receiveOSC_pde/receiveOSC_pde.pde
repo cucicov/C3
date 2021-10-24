@@ -7,7 +7,6 @@ import netP5.*;
 OscP5 oscP5;
 NetAddress myRemoteLocation;
 
-
 void setup(){
 size(700,900);
 oscP5 = new OscP5(this,12000);
